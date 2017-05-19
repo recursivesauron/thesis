@@ -1,0 +1,13 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.navbar li:last-child{
+	position: absolute;
+	right: 40px;
+	top:4px;
+}

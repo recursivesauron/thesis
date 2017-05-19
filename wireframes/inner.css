@@ -1,0 +1,427 @@
+body{
+	overflow-x: hidden;
+}
+
+.left-menu{
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	z-index: 3;
+	background-color: #212121;
+}
+
+.scrollable-overflow-parent{
+	max-height: 750px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.scrollable-overflow{
+	position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: -20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.logout{
+	width: 150px;
+	
+	position: absolute;
+	left: 50px;
+	bottom: 25px;
+}
+
+.main-navigation{
+	padding: 0px;
+	width: 100%;
+	list-style: none;
+	background-color: inherit;
+}
+
+.main-navigation li{
+	padding-left: 40px;
+	text-decoration: none;
+	border-bottom: 2px solid #ffffff;
+
+	height: 30px;
+	line-height: 30px;
+}
+
+.main-navigation li:first-child{
+	border-top: 2px solid #ffffff;
+	line-height: 28px;
+}
+
+.main-navigation .active{
+	background-color: #aed581;
+}
+
+.main-navigation .active a{
+	color: #000000;
+}
+
+.main-navigation li a{
+	color: #ffffff;
+}
+
+#main-content{
+	margin-top: 50px;
+	margin-left: 250px; /*this number must remain constant with left menu width */
+}
+
+.recent-unlocks h4{
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+
+	padding-left: 20px;
+}
+
+.inner-wrapper{
+	padding: 1.5em;
+	background-color: #F5F5F5;
+	border: 1px solid #c3d1d6;
+
+	font-family: 'Lato', sans-serif;
+}
+
+.inner-wrapper h3{
+	font-family: inherit;
+}
+
+.inner-wrapper-daily h3{
+	padding-left: 30px;
+}
+
+.karma-points{
+	margin-top: 20px;
+}
+.karma-points-number{
+	position: relative;
+	top: -125px;
+	color: #212121;
+	font-size: 24px;
+
+	text-align: center;
+	
+
+	z-index: 2;
+}
+
+.habit-item{
+	color: #000000;
+	background-color: #ce93d8;
+	
+	height: 100px;
+	margin-bottom: 50px;
+
+	position: relative;
+}
+
+.habit-button-wrapper{
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+
+	width: 50px;
+	height: 100px;
+}
+
+.plus{
+	height: 50px;
+	width: 50px;
+
+	border-radius: 0px;
+}
+
+.minus{
+	height: 50px;
+	width: 50px;
+
+	border-radius: 0px;
+}
+
+.task-wrapper{
+	background-color: #b39ddb;
+	height: 100px;
+
+	position: relative;
+
+	margin-bottom: 50px;
+}
+
+.task-checkbox{
+	width:20px;
+    height:20px;
+    background:white;
+    border-radius:10px;
+    border:2px solid #555;
+
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+
+.achievement-wrapper{
+	background-color: #9fa8da;
+	height: 100px;
+
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.left-group{
+	display: inline-block;
+	width: 200px;
+}
+
+.right-group{
+	float: right;
+	display: inline-block;
+	width: 50px;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+/*** LEFT MENU STYLING ***/
+
+.header-image{
+	display: block;
+	margin: 0 auto; 
+	width: 200px; 
+	height: auto; 
+	margin-top: 20px; 
+	margin-bottom: 20px;
+}
+
+.karma-points-image{
+	width: 225px; 
+	display: block; 
+	margin-left: 10px; 
+	height: auto;
+}
+
+.recent-unlocks-row{
+	margin-top: 20px;
+}
+
+.left-unlock{
+	padding-left: 60px;
+	margin-bottom: 10px;
+}
+
+.right-unlock{
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.daily-challenges-container{
+	margin-left: 35px; 
+	margin-right: 35px;
+
+	height: auto;
+
+	padding: 1.5em;
+	background-color: #F5F5F5;
+	border: 1px solid #c3d1d6;
+
+	font-family: 'Lato', sans-serif;
+}
+
+.challenge-table{
+	display: block; 
+	vertical-align: middle;
+}
+
+.category-container{
+	padding-left: 35px; 
+	padding-right: 35px; 
+	padding-top: 50px;
+}
+
+.habit-name{
+	padding-top: 30px; 
+	padding-left: 35px; 
+	width: 200px; 
+	display: inline-block;
+}
+
+
+.karma-circle{
+	background-color: #ffc107; 
+	color: white; 
+	font-weight: bold; 
+
+	margin-top: 25px;
+}
+
+.karma-circle-number{
+	margin-left: -7px;
+}
+
+
+.task-name{
+	padding-top: 30px;
+	padding-left: 35px;
+	width: 200px;
+	display: inline-block;
+}
+
+.tracked-achievement-icon{
+	position: absolute;
+	top: 20px; 
+	left: 30px;
+}
+
+.achievement-name{
+	padding-top: 30px; 
+}
+
+/*** radial progress override ***/
+.radial-progress{
+	position: absolute; 
+	right: 20px; 
+	top: 10px;
+}
+
+.logout-container{
+	height: 75px;
+	width: 250px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 0;
+}
+
+
+#daily-challenge-container-1{
+	padding-right: 40px;
+}
+
+#daily-challenge-container-2{
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+#daily-challenge-container-3{
+	padding-left: 50px;
+}
+
+.daily-challenge-inner{
+	background-color: #aed581;
+	width: 100%;
+	height: 150px;
+}
+
+.daily-challenge-inner hr{
+	border-top: 1px solid #212121;
+	margin-top: 0px;
+}
+
+.daily-challenge-inner h4{
+	padding-left: 10px;
+	padding-top: 10px;
+
+	color: #212121;
+}
+
+.menu-icon{
+	position: fixed;
+	top: 30px;
+	left: 0px;
+
+	z-index: 2;
+}
+
+.menu-icon:hover{
+	cursor: pointer;
+}
+
+.drawer-edge{
+	position: fixed;
+	width: 10px;
+	height: 100%;
+
+	top:0px;
+	left: 0px;
+
+	background-color: #212121;
+}
+
+@media(max-width: 1200px) { 
+	.daily-challenge{
+		margin-bottom: 35px;
+	}
+
+	#daily-challenge-container-1{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#daily-challenge-container-2{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#daily-challenge-container-3{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#habits-col{
+		margin-bottom: 50px;
+	}
+
+	#tasks-col{
+		margin-bottom: 50px;
+	}
+
+	#achievements-col{
+		margin-bottom: 50px;
+	}
+}
+
+@media(max-width: 992px){
+	#daily-challenge-container-1{
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	#daily-challenge-container-2{
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	#daily-challenge-container-3{
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+}
+
+@media(max-width: 768px){
+	.left-menu{
+		display: none;
+	}
+	#main-content{
+		margin-left: 0px;
+	}
+}

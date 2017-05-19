@@ -1,0 +1,259 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container-fluid{
+	padding: 0px;
+	height: auto;
+}
+
+.navbar-custom{
+	background-color: #2e7d32;
+	border-radius: 0px;
+
+	width: 100%;
+	position: fixed;
+
+	margin-bottom: 0px;
+	z-index: 2;
+}
+
+.navbar-custom .navbar-toggle .icon-bar{
+	background-color: #ffffff;
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+
+    margin-right: 50px;
+
+}
+.navbar-custom a{
+	color: #ffffff;
+}
+
+.navbar-custom li a:hover{
+	background-color: #66bb6a !important;
+}
+
+.navbar-brand{
+	padding-left: 50px;
+}
+
+#image-banner{
+	width: 100%;
+	height: 300px;
+
+	position: relative;
+	top: 50px;
+}
+
+#image-banner img{
+	width: cover;
+	height: auto;
+
+	
+
+}
+
+@media(max-width: 768px){
+
+	.navbar-custom ul{
+		background-color: #212121;
+	}
+
+	.navbar-custon ul li{
+		border-bottom: 2px solid #66bb6a;
+	}
+	.navbar-custom li a{
+		padding-left: 50px;
+	}
+}
+
+
+/* the stuff */ 
+
+.overview .section-banner {
+    background: #e1e1e1 no-repeat center center;
+    background-size: cover;
+    background-image: url('../images/planting.jpg');
+    background-color: #15190a
+}
+.overview .section-banner h2 {
+    font-weight: normal !important;
+    width: 42% !important
+}
+
+.section-banner {
+    background-color: #e1e1e1;
+    padding: 130px;
+    padding-left: 20px;
+    color: #444
+}
+.section-banner .inner {
+    min-height: 257px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+.section-banner h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: normal;
+    padding-bottom: 25px;
+    max-width: 750px;
+    line-height: 1.2em;
+    width: 50%;
+}
+.section-banner h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+
+.section-banner.direction_left .inner h2 {
+    font-weight: bold;
+    padding-bottom: 0;
+    max-width: 500px;
+    line-height: 33px;
+    width: 50%;
+}
+.section-banner.direction_right .inner {
+    text-align: left;
+    margin-left: 50%;
+}
+.section-banner.direction_right .inner h2 {
+    font-weight: bold;
+    padding-bottom: 0;
+    max-width: 500px;
+    line-height: 33px;
+}
+.section-banner.direction_right .inner h1 {
+    width: auto;
+}
+.section-banner .seperator {
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .section-banner {
+        padding: 50px 0;
+    }
+
+    .section-banner .inner{
+    	 padding-left: 20px;
+    }
+    .section-banner h1 {
+        font-size: 40px;
+    }
+    .section-banner h2 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 479px) {
+    #banner-button{
+    	display: block; 
+    	margin: 0 auto;
+    }
+
+    .section-banner {
+        background-position: right center !important
+    }
+    .section-banner .inner {
+        text-align: center !important;
+        margin: -50px 0;
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff
+    }
+    .section-banner h1,
+    .section-banner h2 {
+        width: 100% !important
+    }
+    .section-banner .button,
+    .section-banner .button-play {
+        margin: 0 auto
+    }
+    .section-banner.direction_right {
+        background-position: left center !important
+    }
+    .section-banner.direction_right .inner {
+        margin-left: 0
+    }
+    .section-banner--no-overlay .inner {
+        background-color: transparent;
+        color: inherit
+    }
+    .overview .section-banner {
+        background-position: 60% center !important
+    }
+    .section-banner.direction_left .inner h2 {
+        width: 100% !important
+    }
+}
+@media only screen and (max-width: 767px) {
+    .direction_left .inner h2 {
+        max-width: 400px !important
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .business .section-banner {
+        height: 49px
+    }
+    .business .section-banner h1 {
+        font-size: 30px;
+        padding-bottom: 15px
+    }
+    .business .section-banner h2 {
+        display: none
+    }
+    .business .section-banner .inner {
+        padding: 0
+    }
+}
+
+
+.unlock-container{
+    width: 70%;
+    height: auto;
+
+    display: block;
+    margin: 0 auto;
+
+    position: fixed;
+    bottom: 100px;
+}
+
+

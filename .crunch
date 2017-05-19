@@ -1,0 +1,23 @@
+{
+	"files": {
+		"css/progress-bar.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "progress-bar.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"progress-bar.less"
+			]
+		}
+	}
+}
